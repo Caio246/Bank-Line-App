@@ -8,6 +8,8 @@ import { MovimentacaoService } from 'src/app/services/movimentacao.service';
 })
 export class MovimentacaoListComponent implements OnInit {
   movimentacoes:any;
+  correntistas:any;
+  correntista:any;
 
   constructor(private movimentacaoService: MovimentacaoService) { }
 
